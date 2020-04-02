@@ -1,0 +1,19 @@
+{
+  "name": "github-topics-trending-batch",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "elm-test",
+    "watch": "parcel watch -t node --bundle-node-modules src/index.js",
+    "start": "node ./dist/index.js",
+    "build": "parcel build -t node --bundle-node-modules src/index.js"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "node-elm-compiler": "^5.0.4",
+    "parcel": "^1.12.4"
+  },
+  "dependencies": {
+    "xhr2": "^0.2.0"
+  }
+}
