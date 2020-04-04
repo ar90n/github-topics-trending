@@ -57,7 +57,7 @@ jobs:
     - name: Crawling
       shell: bash
       run: |
-        node batch/index.js --language ${{ matrix.language }} --date-range ${{ matrix.date }} >> ${{ steps.date.outputs.date}}_${{ matrix.language}}_${{ matrix.date }}.json
+        GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} node batch/index.js --language ${{ matrix.language }} --date-range ${{ matrix.date }} >> ${{ steps.date.outputs.date}}_${{ matrix.language}}_${{ matrix.date }}.json
     - name: Upload result
       uses: actions/upload-artifact@v1
       with:
