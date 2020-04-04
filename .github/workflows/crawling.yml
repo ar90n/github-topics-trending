@@ -4,35 +4,61 @@
 name: Node.js CI
 
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+  repository_dispatch:
+    types: [test]
+  schedule:
+    - cron: "0 3 * * *"
 
 jobs:
   build:
 
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [12.x]
-        language: [c, js]
-        date-range: [daily, weekly, monthly]
-
     steps:
     - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Use Node.js
       uses: actions/setup-node@v1
       with:
-        node-version: ${{ matrix.node-version }}
-    - name: setup crawler
+        node-version: '12.x'
+    - name: Build batch script
       run: |
         cd batch
         cd build_cpu/
-        npm install
-        npm run build
-    - name: crawling
+        yarn
+        yarn build
+    - name: Upload batch script
+      uses: actions/upload-artifact@v1
+      with:
+        name: batch
+        path: batch/dist/index.js
+
+  crawl:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        language: [c, js]
+        date: [daily, weekly, monthly]
+
+    steps:
+    - name: Download batch script
+      uses: actions/download-artifact@v1
+      with:
+        name: batch
+    - name: Use Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+    - name: Get current date
+      id: date
+      run: echo "::set-output name=date::$(date "+%Y%m%d")"
+    - name: Crawling
+      shell: bash
       run: |
-        cd batch
-        npm run start --language ${{matrix.language}}
+        node batch/index.js --language ${{ matrix.language }} --date-range ${{ matrix.date }} >> ${{ steps.date.outputs.date}}_${{ matrix.language}}_${{ matrix.date }}.json
+    - name: Upload result
+      uses: actions/upload-artifact@v1
+      with:
+        name: ${{ steps.date.outputs.date}}_${{ matrix.language}}_${{ matrix.date }}.json
+        path: ${{ steps.date.outputs.date}}_${{ matrix.language}}_${{ matrix.date }}.json
