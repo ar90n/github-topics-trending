@@ -103,17 +103,13 @@ topicsDecoder =
     D.field "names" (D.list D.string)
 
 
-requestGitHubApi : String -> Decoder a -> Task Http.Error a
-requestGitHubApi url decoder =
-    let
-        github_token =
-            "d7bb3143b795ff5a1a7fd0dab19491726bdc42df"
-    in
+requestGitHubApi : String -> String -> Decoder a -> Task Http.Error a
+requestGitHubApi token url decoder =
     Http.task
         { method = "GET"
         , headers =
             [ Http.header "accept" "application/vnd.github.mercy-preview+json"
-            , Http.header "authorization" ("Bearer " ++ github_token)
+            , Http.header "authorization" ("Bearer " ++ token)
             ]
         , url = url
         , body = Http.emptyBody
@@ -145,11 +141,11 @@ requestGitHubApi url decoder =
         }
 
 
-fetchTrending : Language -> DateRange -> Task Http.Error (List Project)
-fetchTrending lang dateRange =
-    requestGitHubApi (trendingEndpoint lang dateRange) trendingDecoder
+fetchTrending : String -> Language -> DateRange -> Task Http.Error (List Project)
+fetchTrending token lang dateRange =
+    requestGitHubApi token (trendingEndpoint lang dateRange) trendingDecoder
 
 
-fetchTopics : String -> String -> Task Http.Error (List String)
-fetchTopics user repo =
-    requestGitHubApi (topicsEndpoint user repo) topicsDecoder
+fetchTopics : String -> String -> String -> Task Http.Error (List String)
+fetchTopics token user repo =
+    requestGitHubApi token (topicsEndpoint user repo) topicsDecoder

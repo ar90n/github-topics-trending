@@ -18,8 +18,13 @@ type Msg
     | ErrorResponse Http.Error
 
 
+type alias CustomFlags =
+    { githubToken : String }
+
+
 type alias Model =
-    ()
+    { githubToken : String
+    }
 
 
 type alias TrendingApiOptions =
@@ -29,7 +34,7 @@ type alias TrendingApiOptions =
 
 
 type alias Flags =
-    Program.FlagsIncludingArgv {}
+    Program.FlagsIncludingArgv CustomFlags
 
 
 programConfig : Program.Config TrendingApiOptions
@@ -92,9 +97,9 @@ countWords k d =
 
 
 init : Flags -> TrendingApiOptions -> ( Model, Cmd Msg )
-init _ { language, dateRange } =
-    ( ()
-    , attemptApi TrendingApiResponse (fetchTrending language dateRange)
+init { githubToken } { language, dateRange } =
+    ( { githubToken = githubToken }
+    , attemptApi TrendingApiResponse (fetchTrending githubToken language dateRange)
     )
 
 
@@ -106,7 +111,7 @@ update trendingOptions msg model =
             , response
                 |> List.map
                     (\{ author, name } ->
-                        fetchTopics author name
+                        fetchTopics model.githubToken author name
                     )
                 |> Task.sequence
                 |> attemptApi
@@ -142,7 +147,7 @@ update trendingOptions msg model =
                     ( model, Ports.print ("Bad body:" ++ body) )
 
 
-main : Program.StatefulProgram Model Msg TrendingApiOptions {}
+main : Program.StatefulProgram Model Msg TrendingApiOptions CustomFlags
 main =
     Program.stateful
         { printAndExitFailure = Ports.printAndExitFailure
