@@ -35,12 +35,12 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        language: [c, js]
-        date: [daily, weekly, monthly]
-
     needs: build
+
+    env:
+      LANGUAGES: "c cpp js python ts csharp java elm"
+      DATE_RANGES: "daily weekly monthly"
+      GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
     steps:
     - name: Download batch script
@@ -57,9 +57,44 @@ jobs:
     - name: Crawling
       shell: bash
       run: |
-        GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} node batch/index.js --language ${{ matrix.language }} --date-range ${{ matrix.date }} >> ${{ steps.date.outputs.date}}_${{ matrix.language}}_${{ matrix.date }}.json
+        for LANG in $LANGUAGES;
+        do
+            for DATE_RANGE in $DATE_RANGES;
+            do
+                mkdir -p assets/topics/${{ steps.date.outputs.date}}/${LANG}
+                node batch/index.js --language ${LANG} --date-range ${DATE_RANGE} >> assets/topics/${{ steps.date.outputs.date}}/${LANG}/${DATE_RANGE}.json
+                sleep 5
+            done
+        done
     - name: Upload result
       uses: actions/upload-artifact@v1
       with:
-        name: ${{ steps.date.outputs.date}}_${{ matrix.language}}_${{ matrix.date }}.json
-        path: ${{ steps.date.outputs.date}}_${{ matrix.language}}_${{ matrix.date }}.json
+        name: assets
+        path: assets
+
+  push:
+    runs-on: ubuntu-latest
+
+    needs: crawl
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: gh-pages
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.6
+    - name: Download crawling results
+      uses: actions/download-artifact@v1
+      with:
+        name: assets
+    - name: push
+      shell: bash
+      run: |
+          python ./tools/gen_index.py ./assets/topics > ./assets/topics/index.json
+          git config --global user.email "argon.argon.argon+github.topics.trending.crawler@gmail.com"
+          git config --global user.name "github-topics-trending-crawler"
+          git add .
+          git commit -m 'Add topics'
+          git push origin gh-pages
