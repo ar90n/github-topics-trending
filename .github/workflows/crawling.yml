@@ -5,7 +5,7 @@ name: Node.js CI
 
 on:
   repository_dispatch:
-    types: [test]
+    types: [test_trigger]
   schedule:
     - cron: "0 3 * * *"
 
