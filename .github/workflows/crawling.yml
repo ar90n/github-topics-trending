@@ -23,7 +23,6 @@ jobs:
     - name: Build batch script
       run: |
         cd batch
-        cd build_cpu/
         yarn
         yarn build
     - name: Upload batch script
@@ -40,6 +39,8 @@ jobs:
       matrix:
         language: [c, js]
         date: [daily, weekly, monthly]
+
+    needs: build
 
     steps:
     - name: Download batch script
