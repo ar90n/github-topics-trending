@@ -38,7 +38,7 @@ jobs:
     needs: build
 
     env:
-      LANGUAGES: "c cpp js python ts csharp java elm"
+      LANGUAGES: "any c cpp js python ts csharp java elm"
       DATE_RANGES: "daily weekly monthly"
       GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
