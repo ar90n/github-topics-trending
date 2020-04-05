@@ -57,6 +57,7 @@ jobs:
         path: /tmp
     - name: Copy app
       run: |
+        ls /tmp
         mv /tmp/bundle/* ./
     - name: push
       shell: bash
