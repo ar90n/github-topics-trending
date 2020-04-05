@@ -61,16 +61,16 @@ jobs:
         do
             for DATE_RANGE in $DATE_RANGES;
             do
-                mkdir -p assets/topics/${{ steps.date.outputs.date}}/${LANG}
-                node batch/index.js --language ${LANG} --date-range ${DATE_RANGE} >> assets/topics/${{ steps.date.outputs.date}}/${LANG}/${DATE_RANGE}.json
+                mkdir -p topics/${{ steps.date.outputs.date}}/${LANG}
+                node batch/index.js --language ${LANG} --date-range ${DATE_RANGE} >> topics/${{ steps.date.outputs.date}}/${LANG}/${DATE_RANGE}.json
                 sleep 5
             done
         done
     - name: Upload result
       uses: actions/upload-artifact@v1
       with:
-        name: assets
-        path: assets
+        name: topics
+        path: topics
 
   push:
     runs-on: ubuntu-latest
@@ -88,11 +88,11 @@ jobs:
     - name: Download crawling results
       uses: actions/download-artifact@v1
       with:
-        name: assets
+        name: topics
     - name: push
       shell: bash
       run: |
-          python ./tools/gen_index.py ./assets/topics > ./assets/topics/index.json
+          python ./tools/gen_index.py ./topics > ./topics/index.json
           git config --global user.email "argon.argon.argon+github.topics.trending.crawler@gmail.com"
           git config --global user.name "github-topics-trending-crawler"
           git add .
