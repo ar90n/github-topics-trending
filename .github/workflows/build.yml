@@ -14,10 +14,6 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [10.x, 12.x]
-
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js
@@ -31,14 +27,14 @@ jobs:
         yarn build
     - name: Pack app
       run: |
-        mkdir app
-        mv ./app/dist/index.html app
-        mv ./app/dist app
+        mkdir bundle
+        mv ./app/dist/index.html bundle
+        mv ./app/dist bundle
     - name: Upload app
       uses: actions/upload-artifact@v1
       with:
-        name: app
-        path: app
+        name: bundle
+        path: bundle
 
   deploy:
 
@@ -56,7 +52,7 @@ jobs:
     - name: Download app
       uses: actions/download-artifact@v1
       with:
-        name: app
+        name: bundle
     - name: push
       shell: bash
       run: |
