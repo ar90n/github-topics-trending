@@ -49,10 +49,15 @@ jobs:
     - name: Clear assets
       run: |
         [ ! -e dist ] || rm -rf dist
+        [ ! -e bundle ] || rm -rf bundle
     - name: Download app
       uses: actions/download-artifact@v1
       with:
         name: bundle
+        path: /tmp
+    - name: Copy app
+      run: |
+        mv /tmp/bundle/* ./
     - name: push
       shell: bash
       run: |
