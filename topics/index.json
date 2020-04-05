@@ -57,6 +57,11 @@
             "weekly.json",
             "daily.json"
         ],
+        "any": [
+            "monthly.json",
+            "weekly.json",
+            "daily.json"
+        ],
         "c": [
             "monthly.json",
             "weekly.json",
