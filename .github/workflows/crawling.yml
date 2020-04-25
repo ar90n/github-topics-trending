@@ -51,9 +51,15 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-    - name: Get current date
-      id: date
-      run: echo "::set-output name=date::$(date "+%Y%m%d")"
+    - name: Get current year
+      id: year
+      run: echo "::set-output name=year::$(date "+%Y")"
+    - name: Get current month
+      id: month
+      run: echo "::set-output name=month::$(date "+%m")"
+    - name: Get current day
+      id: day
+      run: echo "::set-output name=day::$(date "+%d")"
     - name: Crawling
       shell: bash
       run: |
@@ -61,8 +67,8 @@ jobs:
         do
             for DATE_RANGE in $DATE_RANGES;
             do
-                mkdir -p topics/${{ steps.date.outputs.date}}/${LANG}
-                node batch/index.js --language ${LANG} --date-range ${DATE_RANGE} >> topics/${{ steps.date.outputs.date}}/${LANG}/${DATE_RANGE}.json
+                mkdir -p topics/${{ steps.date.outputs.year}}/${{ steps.date.outputs.month}}/${{ steps.date.outputs.day}}/${LANG}
+                node batch/index.js --language ${LANG} --date-range ${DATE_RANGE} >> topics/${{ steps.date.outputs.year}}/${{ steps.date.outputs.month}}/${{ steps.date.outputs.day}}/${LANG}/${DATE_RANGE}.json
                 sleep 5
             done
         done
