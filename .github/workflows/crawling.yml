@@ -67,8 +67,8 @@ jobs:
         do
             for DATE_RANGE in $DATE_RANGES;
             do
-                mkdir -p topics/${{ steps.date.outputs.year}}/${{ steps.date.outputs.month}}/${{ steps.date.outputs.day}}/${LANG}
-                node batch/index.js --language ${LANG} --date-range ${DATE_RANGE} >> topics/${{ steps.date.outputs.year}}/${{ steps.date.outputs.month}}/${{ steps.date.outputs.day}}/${LANG}/${DATE_RANGE}.json
+                mkdir -p topics/${{ steps.year.outputs.year}}/${{ steps.month.outputs.month}}/${{ steps.day.outputs.day}}/${LANG}
+                node batch/index.js --language ${LANG} --date-range ${DATE_RANGE} >> topics/${{ steps.year.outputs.year}}/${{ steps.month.outputs.month}}/${{ steps.day.outputs.day}}/${LANG}/${DATE_RANGE}.json
                 sleep 5
             done
         done
