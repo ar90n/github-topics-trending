@@ -9,7 +9,8 @@ if __name__ == "__main__":
         sys.exit(-1)
 
     result = {}
-    for p in Path(root_dir).glob('*/*/*.json'):
-        date, lang, f = str(p).split('/')[-3:]
-        result.setdefault(date, {}).setdefault(lang, []).append(f)
+    for p in Path(root_dir).glob('*/*/*/*/*.json'):
+        year, month, day, lang, f = str(p).split('/')[-5:]
+        key = f'{year}-{month}-{day}'
+        result.setdefault(key, {}).setdefault(lang, []).append(f)
     print(json.dumps(result, indent=4))
