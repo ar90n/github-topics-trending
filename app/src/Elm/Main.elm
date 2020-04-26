@@ -10,6 +10,7 @@ import Http
 import Json.Decode as D exposing (Decoder)
 import Task exposing (Task)
 import Url
+import Url.Builder
 import Url.Parser exposing ((<?>), top)
 import Url.Parser.Query as Q
 
@@ -121,7 +122,7 @@ fetchTopics : String -> String -> String -> Task Http.Error Topics
 fetchTopics rootUrl date lang =
     let
         url =
-            rootUrl ++ "/topics/" ++ date ++ "/" ++ lang ++ "/daily.json"
+            rootUrl ++ "/topics/" ++ String.replace "-" "/" date ++ "/" ++ lang ++ "/daily.json"
 
         decoder =
             D.keyValuePairs D.int
@@ -207,22 +208,36 @@ update msg model =
         RequestChanged date lang ->
             let
                 url =
-                    Url.Url Url.Http "nikawa" (Just 1234) "/" (Just ("date=" ++ String.replace "-" "" date ++ "&lang=" ++ lang)) Nothing
+                    Url.Builder.absolute
+                        []
+                        [ Url.Builder.string "date" date
+                        , Url.Builder.string "lang" lang
+                        ]
             in
-            update (LinkClicked (Browser.Internal url)) model
+            ( model, Nav.pushUrl model.key url )
 
         ErrorResponse _ ->
-            ( { model | index = Failure, topics = Failure }, Cmd.none )
+            ( { model
+                | index =
+                    if model.index == Loading then
+                        Failure
+
+                    else
+                        model.index
+                , topics = Failure
+              }
+            , Cmd.none
+            )
 
 
 viewNotFound : Html msg
 viewNotFound =
-    text "Not found ..."
+    title "Not found ..."
 
 
 viewLoading : Html msg
 viewLoading =
-    text "Laoding ..."
+    title "Not found ..."
 
 
 topics : Status Topics -> Html Msg
@@ -247,15 +262,15 @@ topics successTopics =
         ]
 
 
-title : Html msg
-title =
+title : String -> Html msg
+title msg =
     h1
         [ classList
             [ ( "u-text-center", True )
             , ( "u-font-alt", True )
             ]
         ]
-        [ text "Topics in GitHub Trending" ]
+        [ text msg ]
 
 
 divider : Html msg
@@ -282,6 +297,13 @@ faIcon name =
 
 datePicker : Index -> String -> String -> Html Msg
 datePicker index date lang =
+    let
+        minDate =
+            Dict.keys index |> List.minimum |> Maybe.withDefault ""
+
+        maxDate =
+            Dict.keys index |> List.maximum |> Maybe.withDefault ""
+    in
     div
         [ classList
             [ ( "col-6", True )
@@ -292,8 +314,9 @@ datePicker index date lang =
         , input
             [ type_ "date"
             , class "form-group-input"
-
-            --            , value "2017-03-21"
+            , value date
+            , Html.Attributes.min minDate
+            , Html.Attributes.max maxDate
             , onChange (\x -> RequestChanged x lang)
             ]
             []
@@ -361,7 +384,7 @@ viewContents index model =
                 ]
                 [ div
                     [ class "content" ]
-                    [ title
+                    [ title "Topics in GitHub Trending"
                     , divider
                     , menu index model.date model.lang
                     , topics model.topics
