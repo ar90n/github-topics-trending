@@ -140,7 +140,7 @@ parseUrl url =
                 (Q.string "lang")
 
         parser =
-            top <?> queryParser
+            (Url.Parser.s "github-topics-trending") <?> queryParser
     in
     Url.Parser.parse parser url
 
@@ -208,7 +208,7 @@ update msg model =
         RequestChanged date lang ->
             let
                 url =
-                    Url.Builder.absolute
+                    Url.Builder.relative
                         []
                         [ Url.Builder.string "date" date
                         , Url.Builder.string "lang" lang
