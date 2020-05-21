@@ -1,2164 +1,2211 @@
 {
-    "2020-04-09": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
+    "2020-05-20": {
         "elm": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
         ],
         "ts": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-04-28": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
         ],
         "js": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
         ],
         "csharp": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
         ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-04-08": {
         "python": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
         ],
         "java": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
         ],
         "c": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
         ],
         "cpp": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-04-12": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
         ],
         "any": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-04-22": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-04-29": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-04-16": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-04-25": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-04-23": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-04-07": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-04-17": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-04-05": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-04-13": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-04-15": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-04-30": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-04-26": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-04-21": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-04-27": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-04-06": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-04-11": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-04-10": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-04-20": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-04-19": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-04-18": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-04-24": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-04-14": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-05-09": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-05-04": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-05-08": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-05-12": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-05-01": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-05-16": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-05-07": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
         ]
     },
     "2020-05-17": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
         "elm": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
         ],
         "ts": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-05-16": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-05-01": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-05-09": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
         ]
     },
     "2020-05-05": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
         "elm": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
         ],
         "ts": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
         ]
     },
-    "2020-05-13": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
+    "2020-05-04": {
         "elm": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
         ],
         "ts": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-05-15": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
         ],
         "js": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
         ],
         "csharp": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
         ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-05-02": {
         "python": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
         ],
         "java": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
         ],
         "c": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
         ],
         "cpp": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-05-03": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
         ],
         "any": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ]
-    },
-    "2020-05-06": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "elm": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "ts": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
         ]
     },
     "2020-05-11": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
         "elm": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
         ],
         "ts": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
         ]
     },
-    "2020-05-10": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
+    "2020-05-06": {
         "elm": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
         ],
         "ts": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
         ]
     },
-    "2020-05-20": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
+    "2020-05-07": {
         "elm": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
         ],
         "ts": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
         ]
     },
-    "2020-05-19": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
+    "2020-05-03": {
         "elm": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
         ],
         "ts": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-05-02": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-05-12": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
         ]
     },
     "2020-05-18": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
         "elm": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
         ],
         "ts": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-05-15": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-05-10": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
         ]
     },
     "2020-05-14": {
-        "python": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
         "elm": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
-        ],
-        "js": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "any": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "java": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "csharp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "c": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
-        ],
-        "cpp": [
-            "monthly.json",
-            "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
         ],
         "ts": [
-            "monthly.json",
             "weekly.json",
-            "daily.json"
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-05-19": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-05-08": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-05-21": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-05-13": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-04-20": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-04-17": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-04-28": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-04-27": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-04-16": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-04-09": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-04-05": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-04-24": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-04-11": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-04-06": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-04-07": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-04-12": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-04-18": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-04-15": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-04-30": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-04-29": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-04-23": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-04-25": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-04-26": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-04-10": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-04-14": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-04-19": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-04-08": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-04-21": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-04-13": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ]
+    },
+    "2020-04-22": {
+        "elm": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "ts": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "js": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "csharp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "python": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "java": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "c": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "cpp": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
+        ],
+        "any": [
+            "weekly.json",
+            "daily.json",
+            "monthly.json"
         ]
     }
 }
