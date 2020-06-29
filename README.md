@@ -1,8 +1,11 @@
 # github-topics-trending
-Static web site and its crawler for Topics in GitHub Trending.
+Static web site and its crawler for Topics in GitHub Trending. All you need is only GitHub.
 
 [Demo](https://ar90n.github.io/github-topics-trending/)
 
+## Features
+* Crawler works in GitHub Action
+* Web pages are hosted in GitHub Pages
 
 ## Start with development server
 ```
