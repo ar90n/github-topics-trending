@@ -4370,6 +4370,53 @@
             "weekly.json"
         ]
     },
+    "2020-10-18": {
+        "cpp": [
+            "monthly.json",
+            "daily.json",
+            "weekly.json"
+        ],
+        "elm": [
+            "monthly.json",
+            "daily.json",
+            "weekly.json"
+        ],
+        "python": [
+            "monthly.json",
+            "daily.json",
+            "weekly.json"
+        ],
+        "js": [
+            "monthly.json",
+            "daily.json",
+            "weekly.json"
+        ],
+        "java": [
+            "monthly.json",
+            "daily.json",
+            "weekly.json"
+        ],
+        "c": [
+            "monthly.json",
+            "daily.json",
+            "weekly.json"
+        ],
+        "any": [
+            "monthly.json",
+            "daily.json",
+            "weekly.json"
+        ],
+        "ts": [
+            "monthly.json",
+            "daily.json",
+            "weekly.json"
+        ],
+        "csharp": [
+            "monthly.json",
+            "daily.json",
+            "weekly.json"
+        ]
+    },
     "2020-10-16": {
         "cpp": [
             "monthly.json",
