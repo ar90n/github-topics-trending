@@ -1,5 +1,6 @@
 module GitHubApi exposing (..)
 
+import Debug
 import Http
 import Json.Decode as D exposing (Decoder)
 import Task exposing (Task)
@@ -74,9 +75,9 @@ trendingEndpoint lang dateRange =
                     "monthly"
     in
     Url.Builder.custom
-        (Url.Builder.CrossOrigin "https://github-trending-api.now.sh")
-        [ "repositories" ]
-        [ Url.Builder.string "language" language
+        (Url.Builder.CrossOrigin "https://trendings.herokuapp.com")
+        [ "repo" ]
+        [ Url.Builder.string "lang" language
         , Url.Builder.string "since" since
         ]
         Nothing
@@ -91,12 +92,37 @@ topicsEndpoint user repo =
         Nothing
 
 
+fromJust : Maybe String -> String
+fromJust x =
+    case x of
+        Just y ->
+            y
+
+        Nothing ->
+            ""
+
+
+projectFromList : List String -> Project
+projectFromList lst =
+    let
+        author =
+            lst |> List.head |> fromJust
+
+        name =
+            lst
+                |> List.drop 1
+                |> List.head
+                |> fromJust
+    in
+    Project author name
+
+
 trendingDecoder : Decoder (List Project)
 trendingDecoder =
-    D.list <|
-        D.map2 Project
-            (D.field "author" D.string)
-            (D.field "name" D.string)
+    D.field "items" <|
+        D.list <|
+            D.map (\repo -> repo |> String.split "/" |> projectFromList)
+                (D.field "repo" D.string)
 
 
 topicsDecoder =
