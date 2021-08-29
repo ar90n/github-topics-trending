@@ -1,0 +1,10 @@
+{
+    "css": 1,
+    "css-modules": 1,
+    "elasticsearch": 1,
+    "elm": 2,
+    "elm-lang": 1,
+    "search": 1,
+    "webpack": 1,
+    "webpack-loader": 1
+}
